@@ -77,6 +77,8 @@ public class Maze {
 
     // otherwise mark this place as visited (drop a breadcrumb)
 
+    // if we're already on the perimeter, then this is a way out
+
     // otherwise try each of our four neighbors (cardinal directions)
 
     return false;
