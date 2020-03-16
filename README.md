@@ -95,7 +95,7 @@ Bummer, we're stuck...
 1. Complete the TODO items in the various sources until the program behaves as required. Recommended order:
     - constructor
     - print
-    - Main
+    - read (in Main)
     - solve
     - tests
 
