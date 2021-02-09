@@ -1,3 +1,7 @@
+# Loyola COMP 271 Lab 6: recursive maze solver
+
+## Group activity
+
 # Pair project
 
 Collaborate with your teammates but submit individually.
