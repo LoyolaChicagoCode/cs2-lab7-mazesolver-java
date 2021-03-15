@@ -118,9 +118,10 @@ Bummer, we're stuck...
        mvn exec:java < maze1.txt
        ...
 
-1. Answer the following questions in Answers.md:
+1. Answer the following questions in Answers.md. Include a brief rationale for each answer.
 
     1. Why do we have both a nonrecursive `solve` and a recursive `solve1` method?
+    2. In terms of finding a way out if one exists, does it matter in which order we consider the neighbors (cardinal directions)?
 
 # Submission
 
