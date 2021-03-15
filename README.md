@@ -103,7 +103,8 @@ Bummer, we're stuck...
 
    You may also want to add the distinction between the way out and dead-end attempts at the end. 
    *This is a short but complex project. You are encouraged to get started early and use the available supports.*   
-1. Create at least one additional maze of size 10x10 or larger and with at least two exits.
+1. Create at least one additional *non-square* maze of size 10x10 or larger and with at least two exits. 
+   *This maze must be different from the one(s) you might have created for a previous lab.*
 1. As in the past, run the program as follows:
     - Run > Run... > Edit Configuration 
     - check "Redirect input from" and enter the exact file name including the .txt extension
@@ -119,9 +120,6 @@ Bummer, we're stuck...
 
 1. Answer the following questions in Answers.md:
 
-    1. Why are the methods in the `Maze` class instance methods as opposed to static methods?
-    1. Why is it generally advantageous to parameterize the `Maze.print` method with the output destination?
-    1. What is the purpose of the `Maze.get` method, given that it is not used in `Main` or `Maze`?
     1. Why do we have both a nonrecursive `solve` and a recursive `solve1` method?
 
 # Submission
@@ -133,8 +131,14 @@ Bummer, we're stuck...
 # Grading (total 5)
 
 - 3 completion of items marked TODO in `src/main` and correct behavior
-- 0.2 additional maze
+- 0.5 additional (non-square) maze
 - 0.8 tests for maze1 and your additional maze
-- 1 written part
-  - 0.8 responses to the questions above
+- 0.7 written part
+  - 0.5 responses to the questions above
   - 0.2 grammar, style, formatting
+
+# Extra credit
+
+- 1 Add the ability to start on the perimeter and find and display a path *through* the maze, i.e., going out through a different exit; 
+    if there is no such path, the program should indicate this.
+- 1 Add the ability to find and display all distinct non-cyclical paths from the starting point to an exit.
