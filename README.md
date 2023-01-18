@@ -1,4 +1,4 @@
-# Loyola COMP 271 Lab 6: recursive maze solver
+# Loyola COMP 271 Lab 7: recursive maze solver
 
 ## Group activity
 
