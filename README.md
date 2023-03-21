@@ -1,9 +1,8 @@
-# Loyola COMP 271 Lab 7: recursive maze solver
+# Loyola COMP 271 Project 8: recursive maze solver
 
 ## Group activity
 
-Collaborate with your teammates but submit individually.
-Clearly list the members of your team.
+In this activity, we'll work on a recursive version of the maze solver.
 
 # Objectives
 
