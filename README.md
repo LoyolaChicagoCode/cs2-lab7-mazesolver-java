@@ -103,13 +103,8 @@ Bummer, we're stuck...
    *This is a short but complex project. You are encouraged to get started early and use the available supports.*   
 1. Create at least one additional *non-square* maze of size 10x10 or larger and with at least two exits. 
    *This maze must be different from the one(s) you might have created for a previous lab.*
-1. As in the past, run the program as follows:
-    - Run > Run... > Edit Configuration 
-    - check "Redirect input from" and enter the exact file name including the .txt extension
-      (do not browse to the file because that would create an absolute path)
-    - press Run
-    
-   Alternatively, if you have a working installation of the [Maven build tool](https://maven.apache.org/), you can perform this task in the terminal:
+1. As in the past, run the tests by pressing the green Run button or running mvn test in a console or shell window.
+1. Also as before, to run the main program in a console or shell window:
 
        cd <your project's root directory>
        mvn compile
