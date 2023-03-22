@@ -121,6 +121,7 @@ Bummer, we're stuck...
 
     1. Why do we have both a nonrecursive `solve` and a recursive `solve1` method?
     2. In terms of finding a way out if one exists, does it matter in which order we consider the neighbors (cardinal directions)?
+    3. How does this recursive solution compare with a solution based on either a FIFO-queue or LIFO-stack?
 
 # Submission
 
@@ -128,26 +129,17 @@ Bummer, we're stuck...
 -    Include a project-specific Answers.md file including your reflection and any other thoughts or design decisions.
 -    In IDEA, export your project as a zip file and submit as an attachment.
 
-# Grading (SP22 - total 3.5 points)
+# Grading (total 10 points)
 
-- 2 completion of items marked TODO in `src/main` and correct behavior
-- 0.2 additional (non-square) maze
-- 0.8 tests for maze1 and your additional maze
-- 0.5 written part
-  - 0.4 responses to the questions above
-  - 0.1 grammar, style, formatting
-
-# Grading (total 5 points)
-
-- 3 completion of items marked TODO in `src/main` and correct behavior
+- 6.5 completion of items marked TODO in `src/main` and correct behavior
 - 0.5 additional (non-square) maze
-- 0.8 tests for maze1 and your additional maze
-- 0.7 written part
-  - 0.5 responses to the questions above
-  - 0.2 grammar, style, formatting
+- 1 tests for maze1 and your additional maze
+- 2 written part
+  - 1.5 responses to the questions above
+  - 0.5 grammar, style, formatting
 
 # Extra credit
 
 - 1 Add the ability to start on the perimeter and find and display a path *through* the maze, i.e., going out through a different exit; 
     if there is no such path, the program should indicate this.
-- 1 Add the ability to find and display all distinct non-cyclical paths from the starting point to an exit.
+- 2 Add the ability to find and display all distinct non-cyclical paths from the starting point to an exit.
